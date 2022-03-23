@@ -657,6 +657,10 @@ figcaption {
   background-color: #c82128;
 }
 
+.section.section-white {
+  background-color: #fff;
+}
+
 .service-card {
   position: relative;
   width: 100%;
@@ -2755,7 +2759,7 @@ figcaption {
 .title {
   font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, sans-serif;
   color: #fff;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
   letter-spacing: 2px;
   text-transform: none;
@@ -3343,7 +3347,13 @@ figcaption {
 }
 
 .link-2 {
+  font-family: proxima-nova, sans-serif;
   color: #f1d01a;
+  font-size: 40px;
+}
+
+.link-2.smaller {
+  font-size: 22px;
 }
 
 .grid {
@@ -3538,6 +3548,31 @@ figcaption {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+
+.border {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 24px;
+  margin-top: 10px;
+  background-image: url('../images/border-red.svg');
+  background-position: 0px 0px;
+  background-size: auto 24px;
+  background-repeat: repeat-x;
+  background-attachment: scroll;
+  line-height: 24px;
+}
+
+.border.border-white {
+  background-image: url('../images/border-white.svg');
+}
+
+.html-embed-2 {
+  background-color: transparent;
 }
 
 @media screen and (max-width: 991px) {
@@ -4943,6 +4978,11 @@ figcaption {
   .sg-buttons {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .link-2 {
+    font-size: 28px;
+    line-height: 30px;
   }
 
   .image {
