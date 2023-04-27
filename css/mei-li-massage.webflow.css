@@ -148,6 +148,20 @@ figcaption {
   text-align: center;
 }
 
+.text-center{
+    text-align: center !important;
+}
+
+.coming-soon-img1{
+    width: 188px;
+    margin: 14px auto 0 auto;
+}
+
+.coming-soon-img2{
+    width: 256px;
+    margin: 6px auto 0 auto;
+}
+
 .hero-section {
   position: relative;
   display: flex;
